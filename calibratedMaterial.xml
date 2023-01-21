@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='utf-8'?>
+<cfsMaterialDataBase
+	xmlns='http://www.cfs++.org/material'
+	xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+	xsi:schemaLocation='http://www.cfs++.org/material 
+    https://opencfs.gitlab.io/cfs/xml/CFS-Material/CFS_Material.xsd'>
+
+	<material name='Air'>
+		<acoustic>
+			<density>
+				<linear>
+					<real>1.2</real>
+				</linear>
+			</density>
+			<densityComplex>
+				<linear>
+					<real>1.2</real>
+					<imag>0.0</imag>
+				</linear>
+			</densityComplex>
+			<compressionModulus>
+				<linear>
+					<real>138720.0</real>
+				</linear>
+			</compressionModulus>
+			<compressionModulusComplex>
+				<linear>
+					<real>138720.0</real>
+					<imag>0.0</imag>
+				</linear>
+			</compressionModulusComplex>
+		</acoustic>
+	</material>
+		<material name='MPP'>
+		<acoustic>
+			<density>
+				<linear>
+					<real>1.2</real>
+				</linear>
+			</density>
+			<densityComplex>
+				<linear>
+					<real>9.3156273491e-01*log(f)+-4.8325419083e+00</real>
+					<imag>1.2949511106e+00*log(f)+-7.7193900418e+00</imag> 
+				</linear>
+			</densityComplex>
+			<compressionModulus>
+				<linear>
+					<real>138720.0</real>
+				</linear>
+			</compressionModulus>
+			<compressionModulusComplex>
+				<linear>
+					<real>1.0214609574e+03*log(f)+-5.5752005794e+03</real>
+					<imag>8.4016704331e+02*log(f)+-6.2747607643e+03</imag>
+				</linear>
+			</compressionModulusComplex>
+		</acoustic>
+	</material>
+</cfsMaterialDataBase>
