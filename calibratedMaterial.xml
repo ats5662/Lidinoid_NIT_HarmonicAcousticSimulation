@@ -9,23 +9,23 @@
 		<acoustic>
 			<density>
 				<linear>
-					<real>1.2</real>
+					<real>1.21</real>
 				</linear>
 			</density>
 			<densityComplex>
 				<linear>
-					<real>1.2</real>
+					<real>1.21</real>
 					<imag>0.0</imag>
 				</linear>
 			</densityComplex>
 			<compressionModulus>
 				<linear>
-					<real>138720.0</real>
+					<real>142604.4</real>
 				</linear>
 			</compressionModulus>
 			<compressionModulusComplex>
 				<linear>
-					<real>138720.0</real>
+					<real>142604.4</real>
 					<imag>0.0</imag>
 				</linear>
 			</compressionModulusComplex>
@@ -35,7 +35,7 @@
 		<acoustic>
 			<density>
 				<linear>
-					<real>1.2</real>
+					<real>1.21</real>
 				</linear>
 			</density>
 			<densityComplex>
@@ -46,7 +46,7 @@
 			</densityComplex>
 			<compressionModulus>
 				<linear>
-					<real>138720.0</real>
+					<real>142604.4</real>
 				</linear>
 			</compressionModulus>
 			<compressionModulusComplex>
